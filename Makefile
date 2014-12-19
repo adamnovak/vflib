@@ -25,8 +25,9 @@ DEBUGFLAGS= -g
 
 #
 # Under g++, -Wall enables all the warning messages
+# Also, we need -std=c++11 to make sure we use the new STL's ABI.
 #
-OTHERFLAGS= -Wall
+OTHERFLAGS= -Wall -std=c++11
 
 #---------------------------------------------------------------
 # Don't edit below this line
